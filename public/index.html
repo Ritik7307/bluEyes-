@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BluEyes Photography</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <div class="logo-mark">BE</div>
+          <span>BluEyes Studio</span>
+        </div>
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-cta" data-scroll="#contact">Book a Shoot</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-left">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Candid · Portrait · Events
+          </div>
+          <h1 class="hero-title">
+            Freeze your moments<br />
+            with <span>BluEyes</span>.
+          </h1>
+          <p class="hero-tagline">
+            We are a photography collective capturing weddings, portraits, and
+            events with natural, cinematic storytelling.
+          </p>
+
+          <div class="hero-meta">
+            <span>10,000+ Moments Captured</span>
+            <span>Available for Weddings & College Fests</span>
+            <span>Based in Your City · Travel Friendly</span>
+          </div>
+
+          <div class="hero-actions">
+            <button class="btn-primary" data-scroll="#contact">
+              Book a Session
+            </button>
+            <button class="btn-ghost" data-scroll="#portfolio">
+              <span>▶</span> View Portfolio
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="canvas-frame">
+            <canvas id="camera3d"></canvas>
+            <div class="canvas-label">
+              <span class="canvas-label-dot"></span>
+              3D Camera · Move Cursor
+            </div>
+            <div class="camera-stat">
+              <strong>Candid Ready</strong>
+              <span>f / 1.4 · ISO 64</span>
+              <span>Shutter 1/250</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div>
+          <p class="section-title">About</p>
+          <h2 class="section-subtitle">The story behind BluEyes.</h2>
+          <p class="section-lead">
+            BluEyes is a photography brand focused on capturing honest,
+            unfiltered emotions. From college fests to intimate weddings, our
+            team blends into the crowd and documents your day in a cinematic yet
+            natural style.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>How we work</h3>
+            <p>
+              We don’t just “take pictures”. We observe, wait, and anticipate
+              the right moment - the laugh, the side-glance, the happy tear. Our
+              photographers are trained to shoot in any lighting so your
+              memories look stunning everywhere.
+            </p>
+            <ul class="about-list">
+              <li>Candid wedding & engagement coverage</li>
+              <li>Portraits for creators, models & professionals</li>
+              <li>College events, fests, and cultural programs</li>
+              <li>Pre–wedding and couple storytelling sessions</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Why “BluEyes”?</h3>
+            <p>
+              “Blu” represents calm, trust, and depth – the way we want your
+              photos to feel. “Eyes” are the way we see your story. Together,
+              BluEyes is about seeing your moments with emotion, detail, and
+              honesty.
+            </p>
+            <ul class="about-list">
+              <li>Fast delivery with curated, edited images</li>
+              <li>Easy online preview & download links</li>
+              <li>Custom packages for students and families</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div>
+          <p class="section-title">Services</p>
+          <h2 class="section-subtitle">What BluEyes offers.</h2>
+          <p class="section-lead">
+            Choose a package that fits your story – whether it’s your first
+            fest, your dream wedding, or a portrait that defines your
+            personality.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="badge">
+              <span class="badge-dot"></span> Most Popular
+            </div>
+            <h3 class="service-title">Candid Event Coverage</h3>
+            <p class="service-desc">
+              Perfect for weddings, college events, and parties. We move with
+              the crowd and capture moments as they naturally happen.
+            </p>
+            <div class="service-meta">
+              <span>Starts at <strong>₹42,000</strong></span>
+              <span>6 hr · 2 shooters</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="badge">
+              <span class="badge-dot"></span> Studio / Outdoor
+            </div>
+            <h3 class="service-title">Portrait & Portfolio</h3>
+            <p class="service-desc">
+              Solo, couple, and group portrait sessions with creative lighting,
+              poses, and backgrounds tailored to your vibe.
+            </p>
+            <div class="service-meta">
+              <span>Starts at <strong>₹9,500</strong></span>
+              <span>20 cinematic edits</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="badge">
+              <span class="badge-dot"></span> Story–focused
+            </div>
+            <h3 class="service-title">Pre–Wedding Story</h3>
+            <p class="service-desc">
+              A cinematic session at your favourite locations – we design a
+              small visual story about your journey together.
+            </p>
+            <div class="service-meta">
+              <span>Starts at <strong>₹68,000</strong></span>
+              <span>Full-day · 3 looks</span>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="badge"><span class="badge-dot"></span> Brand Ready</div>
+            <h3 class="service-title">Brand / Product Shoots</h3>
+            <p class="service-desc">
+              Clean, high–quality visuals for small businesses, creators, and
+              personal brands to use on socials and websites.
+            </p>
+            <div class="service-meta">
+              <span>Starts at <strong>₹24,000</strong></span>
+              <span>Half-day · props incl.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div>
+          <p class="section-title">Portfolio</p>
+          <h2 class="section-subtitle">A peek into our frames.</h2>
+          <p class="section-lead">
+            Swap in your real photos later – for now, enjoy curated Unsplash
+            visuals for each category.
+          </p>
+        </div>
+
+        <div class="filter-row" id="portfolioFilters"></div>
+
+        <div class="gallery-grid" id="portfolioGrid"></div>
+      </section>
+
+      <section id="contact">
+        <div>
+          <p class="section-title">Contact</p>
+          <h2 class="section-subtitle">Book BluEyes for your next event.</h2>
+          <p class="section-lead">
+            Tell us about your date, venue, and the kind of moments you want to
+            capture. We’ll get back with a custom package and full details.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Let’s plan your shoot</h3>
+            <p class="contact-meta">
+              <span
+                >Available for: Weddings, portraits, college fests, corporate
+                events.</span
+              >
+              <span
+                >Travel: Open to out–station bookings with prior notice.</span
+              >
+            </p>
+            <p class="contact-meta">
+              <span><strong>WhatsApp:</strong> +91-7307255940</span>
+              <span><strong>Email:</strong> blueyesstudio@gmail.com</span>
+            </p>
+            <div class="social-row">
+              <a
+                class="social-pill"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
+                >Instagram @blueyes.studio</a
+              >
+              <a
+                class="social-pill"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer"
+                >Facebook /BluEyes</a
+              >
+              <a
+                class="social-pill"
+                href="https://behance.net"
+                target="_blank"
+                rel="noreferrer"
+                >Behance Portfolio</a
+              >
+            </div>
+          </div>
+
+          <form id="bookingForm" novalidate>
+            <div class="form-row">
+              <div class="field-group">
+                <label for="name">Your Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
+              <div class="field-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="+91…"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field-group">
+                <label for="eventType">Event Type</label>
+                <select id="eventType" name="eventType">
+                  <option>Wedding</option>
+                  <option>Engagement / Pre–Wedding</option>
+                  <option>Portrait Session</option>
+                  <option>College Event</option>
+                  <option>Corporate / Brand Shoot</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field-group">
+                <label for="date">Event Date</label>
+                <input id="date" name="date" type="date" />
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="location">Location / Venue</label>
+              <input
+                id="location"
+                name="location"
+                type="text"
+                placeholder="City · Venue name"
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="message">Tell us about your plan</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Timing, vibe, any references you have…"
+              ></textarea>
+            </div>
+
+            <div class="submit-row">
+              <button type="submit" class="btn-primary">Submit Inquiry</button>
+              <small id="formStatus">We usually reply within 24 hours.</small>
+            </div>
+            <p class="form-note">
+              By submitting, you agree to be contacted on phone / WhatsApp with
+              package details.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <span
+          >© <span id="year"></span> BluEyes Studio. All rights reserved.</span
+        >
+        <span>Built with love, light, and candid smiles.</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
+
